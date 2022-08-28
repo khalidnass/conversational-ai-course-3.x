@@ -22,6 +22,9 @@ slots:
     mappings:
       - type: from_entity
         entity: place
+        intent: where_i_live
+        not_intent: inquire_time_difference
+        
 responses:
   utter_greet:
   - text: Hey! How are you?
